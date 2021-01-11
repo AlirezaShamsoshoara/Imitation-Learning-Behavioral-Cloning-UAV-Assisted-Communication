@@ -7,7 +7,11 @@ You can find the **preprint** related to this repository from [Arxiv](...).
 
 * The system model of this paper is based on:
 ![Alt text](/images/system_1.PNG)<br/>
+
+* The imitation model based on experts data for Queues and UEs:<br/>
 ![Alt text](/images/system_2.PNG)<br/>
+
+* The supervised machine learning model to clone the expert behavior:<br/>
 ![Alt text](/images/system_3.PNG)
 
 
