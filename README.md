@@ -8,10 +8,10 @@ You can find the **preprint** related to this repository from [Arxiv](...).
 Abstract: The damage to cellular towers during natural and man-made disasters can disturb the communication services for cellular users. One solution to the problem is using unmanned aerial vehicles to augment the desired communication network. The paper demonstrates the design of a UAV-Assisted Imitation Learning (UnVAIL) communication system that relays the cellular users’ information to a neighbor base station. Since the user equipment (UEs) are equipped with buffers with limited capacity to hold packets, UnVAIL alternates between different UEs to reduce the chance of buffer overflow, positions itself optimally close to the selected UE to reduce service time, and uncovers a network pathway by acting as a relay node. UnVAIL utilizes Imitation Learning (IL) as a data-driven behavioral cloning approach to accomplish an optimal scheduling solution. Results demonstrate that UnVAIL performs similar to a human expert knowledge-based planning in communication timeliness, position accuracy, and energy consumption with an accuracy of 97.52% when evaluated on a developed simulator to train the UAV.
 
 
-* The system model of this paper is based on:
-![Alt text](/images/system_1.PNG)<br/>
+<!--- * The system model of this paper is based on:
+ ![Alt text](/images/system_1.PNG)<br/> --->
 
-* The imitation model based on experts data for Queues and UEs:<br/>
+* The sytem model and imitation model are based on experts data for Queues and UEs:<br/>
 <img src=/images/system_2.PNG width="750" height="500"/>
 <!---![Alt text](/images/system_2.PNG)<br/> --->
 
