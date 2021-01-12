@@ -6,15 +6,14 @@
 
 #########################################################
 # import libraries
-import numpy as np
 import math
+import numpy as np
 import scipy.io as sio
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
 import mpl_toolkits.mplot3d.art3d as art3d
-from matplotlib import animation
-
 from config import Config_General as General
+
 #########################################################
 # Function definition
 center_x = 0

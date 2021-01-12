@@ -1,19 +1,16 @@
+"""
 #################################
 # Packet Scheduler function
 #################################
+"""
 
 #########################################################
 # import libraries
 import numpy as np
-import math
-import scipy.io as sio
-import matplotlib.pyplot as plt
-from matplotlib.patches import Circle
-import mpl_toolkits.mplot3d.art3d as art3d
-from matplotlib import animation
 from random import expovariate
 from random import paretovariate
 from scipy.stats import poisson
+import matplotlib.pyplot as plt
 
 #########################################################
 # Function definition
