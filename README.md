@@ -3,7 +3,7 @@ An Autonomous UAV Assisted Communication is Remote Disaster Area using Imitation
 
 ## Paper
 <!--- just ou can find the **article** related to this code [here at IEEE](https://ieeexplore.ieee.org/abstract/document/8824917) or --->
-You can find the **preprint** related to this repository from [Arxiv](...).
+You can find the **preprint** related to this repository from [Arxiv](...) (Pending).
 
 Abstract: The damage to cellular towers during natural and man-made disasters can disturb the communication services for cellular users. One solution to the problem is using unmanned aerial vehicles to augment the desired communication network. The paper demonstrates the design of a UAV-Assisted Imitation Learning (UnVAIL) communication system that relays the cellular users’ information to a neighbor base station. Since the user equipment (UEs) are equipped with buffers with limited capacity to hold packets, UnVAIL alternates between different UEs to reduce the chance of buffer overflow, positions itself optimally close to the selected UE to reduce service time, and uncovers a network pathway by acting as a relay node. UnVAIL utilizes Imitation Learning (IL) as a data-driven behavioral cloning approach to accomplish an optimal scheduling solution. Results demonstrate that UnVAIL performs similar to a human expert knowledge-based planning in communication timeliness, position accuracy, and energy consumption with an accuracy of 97.52% when evaluated on a developed simulator to train the UAV.
 
