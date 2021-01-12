@@ -24,8 +24,21 @@ This code is run and tested on Python 3.6 on both linux machine with no issues.
 
 
 ## Required Packages
-
-
+* os
+* time
+* copy
+* keras
+* pickle
+* plotly
+* scipy.io
+* numpy
+* sklearn
+* random
+* platform
+* scipy.stats
+* matplotlib.pyplot
+* matplotlib.patches
+* matplotlib.mplot3d.art3d
 
 ## Results
 
