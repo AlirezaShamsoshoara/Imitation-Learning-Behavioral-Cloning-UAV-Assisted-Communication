@@ -38,7 +38,18 @@ Abstract: The damage to cellular towers during natural and man-made disasters ca
 * matplotlib.patches
 * matplotlib.mplot3d.art3d
 
-This code is run and tested on Python 3.6 on linux (Ubuntu 18.04) machine with no issues. User can change parameters such as Number of UEs, Number of Frames, CBR Rate, Number of Sectors, Number of simulation events, the Mode of the program, Packet Size, and all Flags in the config file (config.py). Seven different modes are considered for this implementation:
+This code is run and tested on Python 3.6 on linux (Ubuntu 18.04) machine with no issues. 
+All configurate data such as generated energy and location are saved in ConfigData Directory. All trained models, figures, and figure objects are saved in Output directory:
+```bash
+Repository/Output/
+                ├──Figures
+                   ├── *.pdf
+                ├──FigureObject
+                   ├── *.fig.pickle
+                ├──Models
+                   ├── *.model
+```
+User can change parameters such as Number of UEs, Number of Frames, CBR Rate, Number of Sectors, Number of simulation events, the Mode of the program, Packet Size, and all Flags in the config file (config.py). Seven different modes are considered for this implementation:
 ```
 # ***** Modes ==> i) Demonstration: The expert shows his/her behavior
 # *****          ii) Training: Supervised learning the clone expert's behavior after demonstration
