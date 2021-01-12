@@ -20,8 +20,6 @@ Abstract: The damage to cellular towers during natural and man-made disasters ca
 
 
 ## Code
-This code is run and tested on Python 3.6 on both linux machine with no issues. 
-
 
 ## Required Packages
 * os
@@ -39,6 +37,51 @@ This code is run and tested on Python 3.6 on both linux machine with no issues.
 * matplotlib.pyplot
 * matplotlib.patches
 * matplotlib.mplot3d.art3d
+
+This code is run and tested on Python 3.6 on linux (Ubuntu 18.04) machine with no issues. User can change parameters such as Number of UEs, Number of Frames, CBR Rate, Number of Sectors, Number of simulation events, the Mode of the program, Packet Size, and all Flags in the config file (config.py). Seven different modes are considered for this implementation:
+```
+# ***** Modes ==> i) Demonstration: The expert shows his/her behavior
+# *****          ii) Training: Supervised learning the clone expert's behavior after demonstration
+# *****         iii) Classification: Evaluation of the imitated model on the classification problem
+# *****          iv) Imitation: Getting action from the imitation model
+# *****           v) Results_demonstration: Results of the expert
+# *****          vi) Result_imitation: Result of the agent (Behavioral cloning)
+# *****         vii) Result_imitation_newRate: Result of the agent (Behavioral cloning) for new arrival rates
+```
+
+Also, queues' lengths limitation and other parameters such as transmission and mobility energy consumption rates, Learning parameters such as Loss functions, Learning rate, Number of Epochs, and batch size are configurable as well in the config.py file.
+
+* To run the simulator in ask expert for his/her knowledge, change Mode to '***Demonstration***' in the config.py file and run main.py file ([Change this](https://github.com/AlirezaShamsoshoara/Imitation-Learning-Behavioral-Cloning-UAV-Assisted-Communication/blob/c0502b41ab202779733b074d09f6dec50975c0ed/config.py#L13)):
+```
+Config_General = {..., 'Mode': "Demonstration", ...}
+```
+```
+python3 main.py
+```
+
+* To train a DNN model based on the collected information from the expert, change Mode to '***Training***' in the config.py file and run main.py file ([Change this](https://github.com/AlirezaShamsoshoara/Imitation-Learning-Behavioral-Cloning-UAV-Assisted-Communication/blob/c0502b41ab202779733b074d09f6dec50975c0ed/config.py#L13)):
+```
+Config_General = {..., 'Mode': "Training", ...}
+```
+```
+python3 main.py
+```
+
+* To evaluate the imitated and trained model from the previus section, change Mode to '***Classification***' in the config.py file and run main.py file ([Change this](https://github.com/AlirezaShamsoshoara/Imitation-Learning-Behavioral-Cloning-UAV-Assisted-Communication/blob/c0502b41ab202779733b074d09f6dec50975c0ed/config.py#L13)):
+```
+Config_General = {..., 'Mode': "Classification", ...}
+```
+```
+python3 main.py
+```
+
+* To compare expert with Agent (the cloned model of behaviroal cloning) in the same scenario, change Mode to '***Imitation***' in the config.py file and run main.py file ([Like this](https://github.com/AlirezaShamsoshoara/Imitation-Learning-Behavioral-Cloning-UAV-Assisted-Communication/blob/c0502b41ab202779733b074d09f6dec50975c0ed/config.py#L13)):
+```
+Config_General = {..., 'Mode': "Imitation", ...}
+```
+```
+python3 main.py
+```
 
 ## Results
 
