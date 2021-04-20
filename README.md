@@ -115,7 +115,13 @@ For more results please refer to our paper.
 ## Citation
 If you find the code or the article useful, please cite our paper using this BibTeX:
 ```
-...
+@article{shamsoshoara2021uav,
+  title={UAV-Assisted Communication in Remote Disaster Areas using Imitation Learning},
+  author={Shamsoshoara, Alireza and Afghah, Fatemeh and Blasch, Erik and Ashdown, Jonathan and Bennis, Mehdi},
+  journal={IEEE Open Journal of the Communications Society},
+  year={2021},
+  publisher={IEEE}
+}
 ```
 
 
