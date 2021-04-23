@@ -1,5 +1,6 @@
 # Imitation Learning (Behavioral-Cloning) for UAV-Assisted Communication in Remote Disaster Area
-An Autonomous UAV Assisted Communication is Remote Disaster Area using Imitation Learning (Behavioral Cloning)
+An Autonomous UAV Assisted Communication is Remote Disaster Area using Imitation Learning (Behavioral Cloning)<br/>
+![Alt Text](https://github.com/AlirezaShamsoshoara/Imitation-Learning-Behavioral-Cloning-UAV-Assisted-Communication/blob/main/images/imitation.gif)
 
 ## Paper
 <!--- just ou can find the **article** related to this code [here at IEEE](https://ieeexplore.ieee.org/abstract/document/8824917) or --->
